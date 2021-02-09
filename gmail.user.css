@@ -7,27 +7,29 @@
 @updateURL    https://raw.githubusercontent.com/leddt/usercss/main/gmail.user.css
 ==/UserStyle== */
 
-div[role=main], div[gh=mtb], div#\:4 {
-  max-width: 1200px;
-  margin: auto;
-}
+@-moz-document domain("mail.google.com") {
+  div[role=main], div[gh=mtb], div#\:4 {
+    max-width: 1200px;
+    margin: auto;
+  }
 
-div[gh=tm] {
-  background-color: rgba(0,0,0,0.1);
-}
+  div[gh=tm] {
+    background-color: rgba(0,0,0,0.1);
+  }
 
-div[role=main] div[gh=mtb] {
-  margin: 0;
-}
+  div[role=main] div[gh=mtb] {
+    margin: 0;
+  }
 
-header, div[role=navigation]:not([aria-label="Toggle side panel"]), h3[role=button] {
-  background-color: rgba(0,0,0,0.25) !important;
-}
-div[role=contentinfo] {
-  background-color: rgba(0,0,0,0.25) !important;
-  margin: 0;
-}
+  header, div[role=navigation]:not([aria-label="Toggle side panel"]), h3[role=button] {
+    background-color: rgba(0,0,0,0.25) !important;
+  }
+  div[role=contentinfo] {
+    background-color: rgba(0,0,0,0.25) !important;
+    margin: 0;
+  }
 
-#aso_search_form_anchor {
-  margin: auto;
+  #aso_search_form_anchor {
+    margin: auto;
+  }
 }
