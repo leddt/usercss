@@ -8,7 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("mail.google.com") {
-  div[role=main], div[gh=mtb], div#\:4 {
+  div[role=main]:not(div[role=dialog] div[role=main]), div[gh=mtb], div#\:4 {
     max-width: 1200px;
     margin: auto;
   }
